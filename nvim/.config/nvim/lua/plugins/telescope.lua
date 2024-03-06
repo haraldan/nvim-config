@@ -8,10 +8,10 @@ return {
   },
   config = function()
 
-    local actions = require("telescope.actions")
     local builtin = require('telescope.builtin')
 
-    require("telescope").setup({
+    -- local actions = require("telescope.actions")
+    -- require("telescope").setup({
       -- defaults = {
       --   -- path_display = { "truncate " },
       --   mappings = {
@@ -22,7 +22,7 @@ return {
           -- },
         -- },
       -- },
-    })
+    -- })
 
     require("telescope").load_extension("fzf")
 

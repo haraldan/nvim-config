@@ -1,0 +1,5 @@
+[user]
+	email = daniel.sinev@sennheiser.com
+	name = Daniel Sinev
+[core]
+	editor = nvim
