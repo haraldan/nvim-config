@@ -3,3 +3,5 @@
 	name = Daniel Sinev
 [core]
 	editor = nvim
+[credential]
+	helper = store --file ~/.git-credentials
