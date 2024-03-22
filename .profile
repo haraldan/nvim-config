@@ -27,10 +27,10 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 # add cargo apps to PATH
 . "$HOME/.cargo/env"
-# add bob's neovim to PATH
-if [ -d "$HOME/.local/share/bob/nvim-bin" ] ; then
-  PATH="$PATH:$HOME/.local/share/bob/nvim-bin"
-fi
+# # add bob's neovim to PATH
+# if [ -d "$HOME/.local/share/bob/nvim-bin" ] ; then
+#   PATH="$PATH:$HOME/.local/share/bob/nvim-bin"
+# fi
 # add Mason's packages to PATH
 if [ -d "$HOME/.local/share/nvim/mason/bin/" ] ; then
   PATH="$PATH:$HOME/.local/share/nvim/mason/bin/"
