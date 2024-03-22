@@ -30,3 +30,7 @@ vim.keymap.set("i", "<C-s>", "<Esc>:w<CR>")
 
 -- change update time for CursorHold events
 vim.opt.updatetime = 2000
+
+-- stop annoying TODO highlights
+-- vim.api.nvim_set_hl(0, "Todo", { link = "Comment" })
+vim.api.nvim_set_hl(0, "vhdlTodo", { link = "vhdlComment" })

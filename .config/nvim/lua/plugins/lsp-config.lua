@@ -34,6 +34,9 @@ return {
       lspconfig.lua_ls.setup({
         capabilities = capabilities,
       })
+      lspconfig.vhdl_ls.setup({
+        capabilities = capabilities,
+      })
       vim.api.nvim_create_autocmd("LspAttach", {
         group = vim.api.nvim_create_augroup("custom-lsp-attach", { clear = true }),
         callback = function(event)
