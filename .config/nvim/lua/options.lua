@@ -1,5 +1,6 @@
 -- Leader key
 vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 -- line numbers
 -- opt.relativenumber = true -- show relative line numbers

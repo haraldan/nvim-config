@@ -6,10 +6,14 @@ return {
       local config = require("nvim-treesitter.configs")
       config.setup({
         auto_install = true,
-        highlight = { enable = true },
+        highlight = {
+          enable = true,
+          -- disable = { "latex" },
+          additional_vim_regex_highlighting = { "latex" },
+        },
         indent = { enable = true },
         ensure_installed = { "c", "lua", "vim", "vimdoc", "query" },
       })
-    end
-  }
+    end,
+  },
 }
