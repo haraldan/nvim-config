@@ -13,7 +13,7 @@ vim.opt.expandtab = true -- expand tab to spaces
 vim.opt.autoindent = true -- copy indent from current line when starting new one
 
 -- don't wrap text
-vim.wo.wrap = false
+vim.opt.wrap = false
 
 -- turn on textwidth, turn off automatic folding
 vim.opt.textwidth = 150

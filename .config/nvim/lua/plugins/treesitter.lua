@@ -8,8 +8,7 @@ return {
         auto_install = true,
         highlight = {
           enable = true,
-          disable = {"tmux"},
-          -- disable = { "latex" },
+          disable = {"tmux","latex"},
           additional_vim_regex_highlighting = { "latex" },
         },
         indent = { enable = true },
